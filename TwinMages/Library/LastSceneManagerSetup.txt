@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/TST_ARTMockup.unity
+- path: Assets/Scenes/TST_ARTMockup_Alt.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
