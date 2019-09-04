@@ -1,0 +1,516 @@
+fileFormatVersion: 2
+guid: 806dab0ac9dc75e468812b30d447f995
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: SKL_Beard01_MD
+    100004: SKL_Beard02_MD
+    100006: SKL_Beard03_MD
+    100008: SKL_Beard_Tip_MD
+    100010: SKL_brow_LF
+    100012: SKL_brow_out_LF
+    100014: SKL_brow_out_RT
+    100016: SKL_brow_RT
+    100018: SKL_cape01_LF
+    100020: SKL_cape01_MD
+    100022: SKL_cape01_RT
+    100024: SKL_cape02_LF
+    100026: SKL_cape02_MD
+    100028: SKL_cape02_RT
+    100030: SKL_cheek_LF
+    100032: SKL_cheek_RT
+    100034: SKL_Chest_MD
+    100036: SKL_eyelid_bot_LF
+    100038: SKL_eyelid_bot_RT
+    100040: SKL_eyelid_top_LF
+    100042: SKL_eyelid_top_RT
+    100044: SKL_finger_LF
+    100046: SKL_finger_mitten_LF
+    100048: SKL_finger_mitten_RT
+    100050: SKL_finger_RT
+    100052: SKL_Hair_LF
+    100054: SKL_Hair_MD
+    100056: SKL_Hair_RT
+    100058: SKL_Hand_LF
+    100060: SKL_Hand_RT
+    100062: SKL_Hat01_MD
+    100064: SKL_Hat_MD
+    100066: SKL_Hat_Rim_MD
+    100068: SKL_Head_MD
+    100070: SKL_HeadUp_MD
+    100072: SKL_Hip_MD
+    100074: SKL_jaw_MD
+    100076: SKL_lip_bot_LF
+    100078: SKL_lip_bot_MD
+    100080: SKL_lip_bot_RT
+    100082: SKL_lip_top_LF
+    100084: SKL_lip_top_MD
+    100086: SKL_lip_top_RT
+    100088: SKL_LoArm_LF
+    100090: SKL_LoArm_RT
+    100092: SKL_nose_LF
+    100094: SKL_nose_RT
+    100096: SKL_pupil_LF
+    100098: SKL_pupil_RT
+    100100: SKL_root_MD
+    100102: SKL_teeth_bot_MD
+    100104: SKL_teeth_top_MD
+    100106: SKL_thumb_LF
+    100108: SKL_thumb_RT
+    100110: SKL_UpArm_LF
+    100112: SKL_UpArm_RT
+    100114: SKL_UpArmtwister_LF
+    100116: SKL_UpArmtwister_RT
+    100118: SKL_Weapon_LF
+    100120: SKL_Weapon_RT
+    100122: SKL_hair_back01_MD
+    100124: SKL_hair_front01_MD
+    100126: SKL_hair_front02_MD
+    100128: SKL_hair_front03_MD
+    100130: SKL_hair_LF
+    100132: SKL_hair_mid01_MD
+    100134: SKL_hair_mid02_MD
+    100136: SKL_hair_RT
+    100138: GEO_mage:SKL_Beard01_MD
+    100140: GEO_mage:SKL_Beard02_MD
+    100142: GEO_mage:SKL_Beard03_MD
+    100144: GEO_mage:SKL_Beard_Tip_MD
+    100146: GEO_mage:SKL_brow_LF
+    100148: GEO_mage:SKL_brow_out_LF
+    100150: GEO_mage:SKL_brow_out_RT
+    100152: GEO_mage:SKL_brow_RT
+    100154: GEO_mage:SKL_cape01_LF
+    100156: GEO_mage:SKL_cape01_MD
+    100158: GEO_mage:SKL_cape01_RT
+    100160: GEO_mage:SKL_cape02_LF
+    100162: GEO_mage:SKL_cape02_MD
+    100164: GEO_mage:SKL_cape02_RT
+    100166: GEO_mage:SKL_cheek_LF
+    100168: GEO_mage:SKL_cheek_RT
+    100170: GEO_mage:SKL_Chest_MD
+    100172: GEO_mage:SKL_eyelid_bot_LF
+    100174: GEO_mage:SKL_eyelid_bot_RT
+    100176: GEO_mage:SKL_eyelid_top_LF
+    100178: GEO_mage:SKL_eyelid_top_RT
+    100180: GEO_mage:SKL_finger_LF
+    100182: GEO_mage:SKL_finger_mitten_LF
+    100184: GEO_mage:SKL_finger_mitten_RT
+    100186: GEO_mage:SKL_finger_RT
+    100188: GEO_mage:SKL_hair_back01_MD
+    100190: GEO_mage:SKL_hair_front01_MD
+    100192: GEO_mage:SKL_hair_front02_MD
+    100194: GEO_mage:SKL_hair_front03_MD
+    100196: GEO_mage:SKL_hair_LF
+    100198: GEO_mage:SKL_hair_mid01_MD
+    100200: GEO_mage:SKL_hair_mid02_MD
+    100202: GEO_mage:SKL_hair_RT
+    100204: GEO_mage:SKL_Hand_LF
+    100206: GEO_mage:SKL_Hand_RT
+    100208: GEO_mage:SKL_Hat01_MD
+    100210: GEO_mage:SKL_Hat_MD
+    100212: GEO_mage:SKL_Hat_Rim_MD
+    100214: GEO_mage:SKL_Head_MD
+    100216: GEO_mage:SKL_HeadUp_MD
+    100218: GEO_mage:SKL_Hip_MD
+    100220: GEO_mage:SKL_jaw_MD
+    100222: GEO_mage:SKL_lip_bot_LF
+    100224: GEO_mage:SKL_lip_bot_MD
+    100226: GEO_mage:SKL_lip_bot_RT
+    100228: GEO_mage:SKL_lip_top_LF
+    100230: GEO_mage:SKL_lip_top_MD
+    100232: GEO_mage:SKL_lip_top_RT
+    100234: GEO_mage:SKL_LoArm_LF
+    100236: GEO_mage:SKL_LoArm_RT
+    100238: GEO_mage:SKL_nose_LF
+    100240: GEO_mage:SKL_nose_RT
+    100242: GEO_mage:SKL_pupil_LF
+    100244: GEO_mage:SKL_pupil_RT
+    100246: GEO_mage:SKL_root_MD
+    100248: GEO_mage:SKL_teeth_bot_MD
+    100250: GEO_mage:SKL_teeth_top_MD
+    100252: GEO_mage:SKL_thumb_LF
+    100254: GEO_mage:SKL_thumb_RT
+    100256: GEO_mage:SKL_UpArm_LF
+    100258: GEO_mage:SKL_UpArm_RT
+    100260: GEO_mage:SKL_UpArmtwister_LF
+    100262: GEO_mage:SKL_UpArmtwister_RT
+    100264: GEO_mage:SKL_Weapon_LF
+    100266: GEO_mage:SKL_Weapon_RT
+    100268: GEO_mage:GEO_mage
+    100270: GEO_mage:ORG_GEO
+    400000: //RootNode
+    400002: SKL_Beard01_MD
+    400004: SKL_Beard02_MD
+    400006: SKL_Beard03_MD
+    400008: SKL_Beard_Tip_MD
+    400010: SKL_brow_LF
+    400012: SKL_brow_out_LF
+    400014: SKL_brow_out_RT
+    400016: SKL_brow_RT
+    400018: SKL_cape01_LF
+    400020: SKL_cape01_MD
+    400022: SKL_cape01_RT
+    400024: SKL_cape02_LF
+    400026: SKL_cape02_MD
+    400028: SKL_cape02_RT
+    400030: SKL_cheek_LF
+    400032: SKL_cheek_RT
+    400034: SKL_Chest_MD
+    400036: SKL_eyelid_bot_LF
+    400038: SKL_eyelid_bot_RT
+    400040: SKL_eyelid_top_LF
+    400042: SKL_eyelid_top_RT
+    400044: SKL_finger_LF
+    400046: SKL_finger_mitten_LF
+    400048: SKL_finger_mitten_RT
+    400050: SKL_finger_RT
+    400052: SKL_Hair_LF
+    400054: SKL_Hair_MD
+    400056: SKL_Hair_RT
+    400058: SKL_Hand_LF
+    400060: SKL_Hand_RT
+    400062: SKL_Hat01_MD
+    400064: SKL_Hat_MD
+    400066: SKL_Hat_Rim_MD
+    400068: SKL_Head_MD
+    400070: SKL_HeadUp_MD
+    400072: SKL_Hip_MD
+    400074: SKL_jaw_MD
+    400076: SKL_lip_bot_LF
+    400078: SKL_lip_bot_MD
+    400080: SKL_lip_bot_RT
+    400082: SKL_lip_top_LF
+    400084: SKL_lip_top_MD
+    400086: SKL_lip_top_RT
+    400088: SKL_LoArm_LF
+    400090: SKL_LoArm_RT
+    400092: SKL_nose_LF
+    400094: SKL_nose_RT
+    400096: SKL_pupil_LF
+    400098: SKL_pupil_RT
+    400100: SKL_root_MD
+    400102: SKL_teeth_bot_MD
+    400104: SKL_teeth_top_MD
+    400106: SKL_thumb_LF
+    400108: SKL_thumb_RT
+    400110: SKL_UpArm_LF
+    400112: SKL_UpArm_RT
+    400114: SKL_UpArmtwister_LF
+    400116: SKL_UpArmtwister_RT
+    400118: SKL_Weapon_LF
+    400120: SKL_Weapon_RT
+    400122: SKL_hair_back01_MD
+    400124: SKL_hair_front01_MD
+    400126: SKL_hair_front02_MD
+    400128: SKL_hair_front03_MD
+    400130: SKL_hair_LF
+    400132: SKL_hair_mid01_MD
+    400134: SKL_hair_mid02_MD
+    400136: SKL_hair_RT
+    400138: GEO_mage:SKL_Beard01_MD
+    400140: GEO_mage:SKL_Beard02_MD
+    400142: GEO_mage:SKL_Beard03_MD
+    400144: GEO_mage:SKL_Beard_Tip_MD
+    400146: GEO_mage:SKL_brow_LF
+    400148: GEO_mage:SKL_brow_out_LF
+    400150: GEO_mage:SKL_brow_out_RT
+    400152: GEO_mage:SKL_brow_RT
+    400154: GEO_mage:SKL_cape01_LF
+    400156: GEO_mage:SKL_cape01_MD
+    400158: GEO_mage:SKL_cape01_RT
+    400160: GEO_mage:SKL_cape02_LF
+    400162: GEO_mage:SKL_cape02_MD
+    400164: GEO_mage:SKL_cape02_RT
+    400166: GEO_mage:SKL_cheek_LF
+    400168: GEO_mage:SKL_cheek_RT
+    400170: GEO_mage:SKL_Chest_MD
+    400172: GEO_mage:SKL_eyelid_bot_LF
+    400174: GEO_mage:SKL_eyelid_bot_RT
+    400176: GEO_mage:SKL_eyelid_top_LF
+    400178: GEO_mage:SKL_eyelid_top_RT
+    400180: GEO_mage:SKL_finger_LF
+    400182: GEO_mage:SKL_finger_mitten_LF
+    400184: GEO_mage:SKL_finger_mitten_RT
+    400186: GEO_mage:SKL_finger_RT
+    400188: GEO_mage:SKL_hair_back01_MD
+    400190: GEO_mage:SKL_hair_front01_MD
+    400192: GEO_mage:SKL_hair_front02_MD
+    400194: GEO_mage:SKL_hair_front03_MD
+    400196: GEO_mage:SKL_hair_LF
+    400198: GEO_mage:SKL_hair_mid01_MD
+    400200: GEO_mage:SKL_hair_mid02_MD
+    400202: GEO_mage:SKL_hair_RT
+    400204: GEO_mage:SKL_Hand_LF
+    400206: GEO_mage:SKL_Hand_RT
+    400208: GEO_mage:SKL_Hat01_MD
+    400210: GEO_mage:SKL_Hat_MD
+    400212: GEO_mage:SKL_Hat_Rim_MD
+    400214: GEO_mage:SKL_Head_MD
+    400216: GEO_mage:SKL_HeadUp_MD
+    400218: GEO_mage:SKL_Hip_MD
+    400220: GEO_mage:SKL_jaw_MD
+    400222: GEO_mage:SKL_lip_bot_LF
+    400224: GEO_mage:SKL_lip_bot_MD
+    400226: GEO_mage:SKL_lip_bot_RT
+    400228: GEO_mage:SKL_lip_top_LF
+    400230: GEO_mage:SKL_lip_top_MD
+    400232: GEO_mage:SKL_lip_top_RT
+    400234: GEO_mage:SKL_LoArm_LF
+    400236: GEO_mage:SKL_LoArm_RT
+    400238: GEO_mage:SKL_nose_LF
+    400240: GEO_mage:SKL_nose_RT
+    400242: GEO_mage:SKL_pupil_LF
+    400244: GEO_mage:SKL_pupil_RT
+    400246: GEO_mage:SKL_root_MD
+    400248: GEO_mage:SKL_teeth_bot_MD
+    400250: GEO_mage:SKL_teeth_top_MD
+    400252: GEO_mage:SKL_thumb_LF
+    400254: GEO_mage:SKL_thumb_RT
+    400256: GEO_mage:SKL_UpArm_LF
+    400258: GEO_mage:SKL_UpArm_RT
+    400260: GEO_mage:SKL_UpArmtwister_LF
+    400262: GEO_mage:SKL_UpArmtwister_RT
+    400264: GEO_mage:SKL_Weapon_LF
+    400266: GEO_mage:SKL_Weapon_RT
+    400268: GEO_mage:GEO_mage
+    400270: GEO_mage:ORG_GEO
+    4300000: GEO_mage:GEO_mage
+    7400000: A_mage_death_01
+    9500000: //RootNode
+    13700000: GEO_mage:GEO_mage
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: A_mage_death_01
+      takeName: A_mage_death_01
+      firstFrame: 0
+      lastFrame: 66
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .0238993708
+        functionName: PlayCharacterSound
+        data: Death
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .0446735397
+        functionName: CreateProp
+        data: 
+        objectReferenceParameter: {fileID: 189032, guid: 1bf3ead4c14638341a05420cadbcc0c6,
+          type: 2}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .665218115
+        functionName: Event
+        data: DeathCelebration
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SKL_root_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_cape01_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_cape01_LF/SKL_cape02_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_cape01_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_cape01_MD/SKL_cape02_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_cape01_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_cape01_RT/SKL_cape02_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_Beard01_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_Beard01_MD/SKL_Beard02_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_Beard01_MD/SKL_Beard02_MD/SKL_Beard03_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_Beard01_MD/SKL_Beard02_MD/SKL_Beard03_MD/SKL_Beard_Tip_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_brow_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_brow_LF/SKL_brow_out_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_brow_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_brow_RT/SKL_brow_out_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_cheek_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_cheek_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_eyelid_bot_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_eyelid_bot_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_eyelid_top_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_eyelid_top_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_HeadUp_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_HeadUp_MD/SKL_hair_back01_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_HeadUp_MD/SKL_hair_front01_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_HeadUp_MD/SKL_hair_front01_MD/SKL_hair_front02_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_HeadUp_MD/SKL_hair_front01_MD/SKL_hair_front02_MD/SKL_hair_front03_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_HeadUp_MD/SKL_hair_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_HeadUp_MD/SKL_hair_mid01_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_HeadUp_MD/SKL_hair_mid01_MD/SKL_hair_mid02_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_HeadUp_MD/SKL_hair_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_HeadUp_MD/SKL_Hat_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_HeadUp_MD/SKL_Hat_MD/SKL_Hat01_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_HeadUp_MD/SKL_Hat_MD/SKL_Hat_Rim_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_jaw_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_lip_bot_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_lip_bot_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_lip_bot_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_lip_top_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_lip_top_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_lip_top_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_nose_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_nose_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_pupil_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_pupil_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_teeth_bot_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_teeth_top_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_UpArm_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_UpArm_LF/SKL_LoArm_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_UpArm_LF/SKL_LoArm_LF/SKL_Hand_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_UpArm_LF/SKL_LoArm_LF/SKL_Hand_LF/SKL_finger_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_UpArm_LF/SKL_LoArm_LF/SKL_Hand_LF/SKL_finger_mitten_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_UpArm_LF/SKL_LoArm_LF/SKL_Hand_LF/SKL_thumb_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_UpArm_LF/SKL_LoArm_LF/SKL_Hand_LF/SKL_Weapon_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_UpArm_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_UpArm_RT/SKL_LoArm_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_UpArm_RT/SKL_LoArm_RT/SKL_Hand_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_UpArm_RT/SKL_LoArm_RT/SKL_Hand_RT/SKL_finger_mitten_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_UpArm_RT/SKL_LoArm_RT/SKL_Hand_RT/SKL_finger_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_UpArm_RT/SKL_LoArm_RT/SKL_Hand_RT/SKL_thumb_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_UpArm_RT/SKL_LoArm_RT/SKL_Hand_RT/SKL_Weapon_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_UpArmtwister_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_UpArmtwister_RT
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: e1916041a42fb2744bb2836d5454d8e4,
+    type: 3}
+  animationType: 2
+  additionalBone: 0
+  userData: 
