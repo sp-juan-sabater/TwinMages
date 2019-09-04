@@ -1,4 +1,5 @@
-﻿using HutongGames.PlayMaker;
+﻿using System.Collections;
+using HutongGames.PlayMaker;
 using UnityEngine;
 using UnityEngine.Assertions;
 
@@ -12,9 +13,11 @@ public class LevelController : MonoBehaviour
     //Constants
     private string _kReboundCountKey = "ReboundCount";
 
-    private int _reboundCount;
+    private FsmInt _reboundCount;
     private Transform _mainCameraTransform;
     private LevelController _nextLevelController;
+    public delegate void LevelComplete();
+    public static event LevelComplete OnTravelling;
     
     // Start is called before the first frame update
     void Start()
@@ -30,11 +33,20 @@ public class LevelController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _reboundCount = FsmVariables.GlobalVariables.FindFsmInt(_kReboundCountKey).Value;
-        if (_reboundCount >= NeededReboundCounter && NextLevel && _nextLevelController)
+        _reboundCount = FsmVariables.GlobalVariables.FindFsmInt(_kReboundCountKey);
+        if (_reboundCount.Value >= NeededReboundCounter && NextLevel && _nextLevelController)
         {
-            Time.timeScale = 0;
-            _mainCameraTransform.position = Vector3.MoveTowards(transform.position, _nextLevelController.GetCameraAnchorPosition(), CameraScrollSpeed);
+            StartCoroutine(MovePieceTowards());
+            _reboundCount.Value = 0;
+        }
+    }
+    
+    IEnumerator MovePieceTowards()
+    {
+        while (_mainCameraTransform.position != _nextLevelController.GetCameraAnchorPosition())
+        {
+            _mainCameraTransform.position = Vector3.MoveTowards(_mainCameraTransform.position, _nextLevelController.GetCameraAnchorPosition(), CameraScrollSpeed*Time.deltaTime);
+            yield return null;
         }
     }
 
@@ -42,9 +54,9 @@ public class LevelController : MonoBehaviour
     {
         if (CameraAnchor)
         {
-            return CameraAnchor.GetComponent<Transform>().position;
+            return CameraAnchor.transform.position;
         }
-        return new Vector3();
+        return Vector3.zero;
     }
     
 }
