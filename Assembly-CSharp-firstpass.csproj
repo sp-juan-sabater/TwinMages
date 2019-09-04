@@ -279,15 +279,6 @@
     <Reference Include="UnityEngine.XRModule">
       <HintPath>F:/Program Files (x86)/Unity/2019.2.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
-    <Reference Include="DemiLib">
-      <HintPath>F:/+PROJECTS/TwinMages/Assets/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-      <HintPath>F:/+PROJECTS/TwinMages/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenPro">
-      <HintPath>F:/+PROJECTS/TwinMages/Assets/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
-    </Reference>
     <Reference Include="ConditionalExpression">
       <HintPath>F:/+PROJECTS/TwinMages/Assets/PlayMaker/ConditionalExpression.dll</HintPath>
     </Reference>
@@ -663,16 +654,6 @@
     <Reference Include="Boo.Lang">
       <HintPath>F:/Program Files (x86)/Unity/2019.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="DOTween.Modules.csproj">
-      <Project>{DE74B8E5-AC30-BE10-DEE9-BB7CF2023D62}</Project>
-      <Name>DOTween.Modules</Name>
-    </ProjectReference>
-    <ProjectReference Include="DOTweenPro.Scripts.csproj">
-      <Project>{89A0447F-2A9B-8652-463B-CD22D296AB78}</Project>
-      <Name>DOTweenPro.Scripts</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
