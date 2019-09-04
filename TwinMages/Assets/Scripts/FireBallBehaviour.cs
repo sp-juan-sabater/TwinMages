@@ -1,35 +1,41 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using HutongGames.PlayMaker;
 using UnityEngine;
 using UnityEngine.Assertions;
 
 public class FireBallBehaviour : MonoBehaviour
 {
-    [SerializeField] public GameObject GameManager;
-
-    private FireBallSpawner _fireBallSpawner;
+    //Constants
+    private string _kReboundCountKey = "ReboundCount";
+    private string _kSpeedKey = "Speed";
+    
+    private PlayMakerFSM fsm;
     
     // Start is called before the first frame update
     void Start()
     {
-        Assert.IsNotNull(GameManager, "GameManager can't be null");
-        _fireBallSpawner = GameManager.GetComponent<FireBallSpawner>();
+        fsm = gameObject.GetComponent<PlayMakerFSM>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
     }
 
     private void OnDestroy()
     {
-        _fireBallSpawner.SetNeedSpawnFireball();
+        fsm.FsmVariables.GetFsmFloat(_kReboundCountKey).Value = 0;
     }
 
-    //void OnCollisionEnter(Collision collision)
-    //{
-        //Debug.Log("Contact");
-    //}
+    public void OnTravellingActivated()
+    {
+        fsm.FsmVariables.GetFsmFloat(_kSpeedKey).Value = 0;
+    }
+    
+    public void OnTravellingDesactivated()
+    {
+        Destroy(gameObject);
+    }
 }

@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody _rb;
     private Vector3 _currentDirection;
     private Transform _otherPlayerTransform;
+    private bool _enabled = true;
 
     // Start is called before the first frame update
     void Start()
@@ -25,8 +26,22 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (!_enabled)
+        {
+            return;
+        }
         _currentDirection = Vector3.forward * fixedJoystick.Vertical;
         _rb.MovePosition(transform.position + _currentDirection * speed * Time.deltaTime);
         transform.LookAt(_otherPlayerTransform);
+    }
+
+    public void OnTravellingActivated()
+    {
+        _enabled = false;
+    }
+    
+    public void OnTravellingDesactivated()
+    {
+        _enabled = true;
     }
 }
