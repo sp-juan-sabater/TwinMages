@@ -242,15 +242,6 @@
     <Reference Include="Managed/UnityEditor">
       <HintPath>F:\Program Files (x86)\Unity\2019.2.3f1\Editor\Data\Managed/UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="DemiLib">
-      <HintPath>Assets/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-      <HintPath>Assets/Demigiant/DOTween/DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenPro">
-      <HintPath>Assets/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
-    </Reference>
     <Reference Include="ConditionalExpression">
       <HintPath>Assets/PlayMaker/ConditionalExpression.dll</HintPath>
     </Reference>
@@ -258,13 +249,13 @@
       <HintPath>Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>F:/+PROJECTS/TwinMages/TwinMages/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>F:/+PROJECTS/TwinMages/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>F:/+PROJECTS/TwinMages/TwinMages/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>F:/+PROJECTS/TwinMages/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>F:/+PROJECTS/TwinMages/TwinMages/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>F:/+PROJECTS/TwinMages/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>F:/Program Files (x86)/Unity/2019.2.3f1/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -628,6 +619,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="TwinMages.Plugins.csproj">
+      <Project>{96C5CF68-E35B-7BCB-5EC9-CA549F43B6F1}</Project>
+      <Name>TwinMages.Plugins</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{F37EB8D3-595B-2A8E-9D57-98253E4F534B}</Project>
       <Name>Unity.VSCode.Editor</Name>
@@ -640,17 +635,9 @@
       <Project>{C12CEEC6-100C-58A2-DE36-314E4DE5E40B}</Project>
       <Name>Unity.CollabProxy.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="DOTween.Modules.csproj">
-      <Project>{EFB8DE39-E2A1-E9F1-8C19-8FA35947FEFD}</Project>
-      <Name>DOTween.Modules</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
       <Project>{C540080A-BED7-978E-DDFC-EE09E5DBB722}</Project>
       <Name>Unity.Rider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="DOTweenPro.Scripts.csproj">
-      <Project>{C17152E9-6F14-736C-F72F-7D54DECBF49B}</Project>
-      <Name>DOTweenPro.Scripts</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
       <Project>{AB3E87E4-B43A-1D7D-50AA-29DDBC72D80A}</Project>
@@ -666,169 +653,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_Complete-Game\Scripts\BoardManager.cs" />
-    <Compile Include="Assets\_Complete-Game\Scripts\Enemy.cs" />
-    <Compile Include="Assets\_Complete-Game\Scripts\GameManager.cs" />
-    <Compile Include="Assets\_Complete-Game\Scripts\Loader.cs" />
-    <Compile Include="Assets\_Complete-Game\Scripts\MovingObject.cs" />
-    <Compile Include="Assets\_Complete-Game\Scripts\Player.cs" />
-    <Compile Include="Assets\_Complete-Game\Scripts\SoundManager.cs" />
-    <Compile Include="Assets\_Complete-Game\Scripts\Wall.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenAdditionalMethodsClear.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenAdditionalMethodsClearCachedTweens.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenAdditionalMethodsValidate.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenAnimateColor.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenAnimateFloat.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenAnimateInt.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenAnimateRect.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenAnimateString.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenAnimateVector2.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenAnimateVector3.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenAudioMixerSetFloat.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenAudioSourceFadeVolume.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenAudioSourcePitch.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenCameraAspect.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenCameraColor.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenCameraFarClipPlane.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenCameraFieldOfView.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenCameraNearClipPlane.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenCameraOrthoSize.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenCameraPixelRect.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenCameraRect.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenCameraShakePosition.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenCameraShakeRotation.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenCanvasGroupFade.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenControlMethodsCompleteAll.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenControlMethodsCompleteById.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenControlMethodsFlipAll.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenControlMethodsFlipById.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenControlMethodsGoToAll.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenControlMethodsGoToById.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenControlMethodsKillAll.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenControlMethodsKillById.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenControlMethodsPauseAll.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenControlMethodsPauseByID.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenControlMethodsPlayAll.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenControlMethodsPlayBackwardsAll.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenControlMethodsPlayBackwardsById.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenControlMethodsPlayById.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenControlMethodsPlayForwardAll.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenControlMethodsPlayForwardById.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenControlMethodsRestartAll.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenControlMethodsRestartById.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenControlMethodsRewindAll.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenControlMethodsRewindById.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenControlMethodsSmoothRewindAll.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenControlMethodsSmoothRewindById.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenControlMethodsTogglePauseAll.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenControlMethodsTogglePauseById.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenImageBlendableColor.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenImageColor.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenImageFade.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenImageFillAmount.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenInit.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenLayoutElementFlexibleSize.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenLayoutElementMinSize.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenLayoutElementPreferredSize.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenLightBlendableColor.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenLightColor.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenLightIntensity.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenLightShadowStrength.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenLineRendererColor.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenMaterialBlendableColor.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenMaterialBlendableColorProperty.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenMaterialColor.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenMaterialColorProperty.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenMaterialFade.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenMaterialFadeProperty.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenMaterialFloatProperty.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenMaterialOffset.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenMaterialOffsetProperty.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenMaterialTiling.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenMaterialTilingProperty.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenMaterialVectorProperty.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenOutlineColor.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenOutlineFade.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRectTransformAnchorMax.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRectTransformAnchorMin.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRectTransformAnchorPos.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRectTransformAnchorPos3D.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRectTransformAnchorPosX.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRectTransformAnchorPosY.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRectTransformJumpAnchorPos.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRectTransformPivot.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRectTransformPivotX.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRectTransformPivotY.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRectTransformPunchAnchorPos.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRectTransformShakeAnchorPos.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRectTransformSizeDelta.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRigidbody2DJump.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRigidbody2DMove.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRigidbody2DMoveX.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRigidbody2DMoveY.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRigidbody2DRotate.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRigidbodyJump.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRigidbodyLookAtGameObject.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRigidbodyLookAtPosition.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRigidbodyMove.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRigidbodyMoveX.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRigidbodyMoveY.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRigidbodyMoveZ.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenRigidbodyRotate.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenScrollRectHorizontalNormalizedPos.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenScrollRectNormalizedPos.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenScrollRectVerticalNormalizedPos.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenSliderValue.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenSpriteRendererBlendableColor.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenSpriteRendererColor.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenSpriteRendererFade.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTextBlendableColor.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTextColor.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTextFade.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTextText.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTrailRendererResize.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTrailRendererTime.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformBlendableLocalMoveBy.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformBlendableLocalRotateBy.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformBlendableMoveBy.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformBlendableRotateBy.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformBlendableScaleBy.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformJump.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformLocalJump.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformLocalMove.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformLocalMoveX.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformLocalMoveY.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformLocalMoveZ.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformLocalPath.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformLocalRotate.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformLookAtGameObject.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformLookAtPosition.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformMove.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformMoveX.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformMoveY.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformMoveZ.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformPath.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformPunchPosition.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformPunchRotation.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformPunchScale.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformRotate.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformScale.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformScaleX.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformScaleY.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformScaleZ.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformShakePosition.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformShakeRotation.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Actions\DOTween\DOTweenTransformShakeScale.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Scripts\DOTweenActionsEnums.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Scripts\DOTweenActionsUtils.cs" />
-    <Compile Include="Assets\DOTweenPlaymakerActions\Scripts\DOTweenExtensions.cs" />
-    <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
-    <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
     <Compile Include="Assets\PlayMaker\Actions\ActionHelpers.cs" />
     <Compile Include="Assets\PlayMaker\Actions\AnimateVariables\AnimateColor.cs" />
     <Compile Include="Assets\PlayMaker\Actions\AnimateVariables\AnimateFloat.cs" />
@@ -1687,6 +1511,10 @@
     <Compile Include="Assets\PlayMaker\Actions\Web\WWWObject.cs" />
     <Compile Include="Assets\PlayMaker\FsmProcessor.cs" />
     <Compile Include="Assets\PlayMaker\UpdateHelper.cs" />
+    <Compile Include="Assets\Scripts\FireBallBehaviour.cs" />
+    <Compile Include="Assets\Scripts\FireBallSpawner.cs" />
+    <Compile Include="Assets\Scripts\LevelController.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -1720,22 +1548,8 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
-    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\TutorialInfo\Scripts\TutorialInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Demigiant\DOTween\DOTween.XML" />
-    <None Include="Assets\Demigiant\DOTween\Editor\DOTweenEditor.XML" />
-    <None Include="Assets\Demigiant\DOTween\Modules\DOTween.Modules.asmdef" />
-    <None Include="Assets\Demigiant\DOTween\readme.txt" />
-    <None Include="Assets\Demigiant\DOTweenPro\DOTweenPro.Scripts.asmdef" />
-    <None Include="Assets\Demigiant\DOTweenPro\DOTweenPro.XML" />
-    <None Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenPro.EditorScripts.asmdef" />
-    <None Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenProEditor.XML" />
-    <None Include="Assets\Demigiant\DOTweenPro\readme.txt" />
-    <None Include="Assets\Demigiant\DemiLib\Core\DemiLib.xml" />
-    <None Include="Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
-    <None Include="Assets\Demigiant\readme_DOTweenPro.txt" />
     <None Include="Assets\Fonts\OFL.txt" />
     <None Include="Assets\PlayMaker\Editor\Install\readme.txt" />
     <None Include="Assets\PlayMaker\Editor\Resources\CustomVariableTypes.txt" />
@@ -1765,7 +1579,6 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-    <None Include="Assets\TutorialInfo\Fonts\LICENSE.txt" />
     <None Include="Assets\net.fabrejean\Editor\Common\GuiSkins\README.txt" />
     <None Include="Assets\net.fabrejean\Editor\Common\GuiSkins\VolcanicGuiSkin\ReadMeForCredits.txt" />
     <None Include="Packages\com.unity.2d.sprite\Editor\UI\SpriteEditor\PolygonChangeShapeWindow.uxml" />

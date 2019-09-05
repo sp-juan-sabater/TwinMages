@@ -1,0 +1,309 @@
+fileFormatVersion: 2
+guid: ee7a13f3027a7b847bd6f39c892603aa
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: SKL_Ball_LF
+    100004: SKL_Ball_RT
+    100006: SKL_Cape_Back_MD
+    100008: SKL_Cape_Front_MD
+    100010: SKL_Chest_MD
+    100012: SKL_Clavicle_LF
+    100014: SKL_Clavicle_RT
+    100016: SKL_eye_LF
+    100018: SKL_eye_RT
+    100020: SKL_eyelid_bot_LF
+    100022: SKL_eyelid_bot_RT
+    100024: SKL_eyelid_top_LF
+    100026: SKL_eyelid_top_RT
+    100028: SKL_Foot_LF
+    100030: SKL_Foot_RT
+    100032: SKL_Hand_LF
+    100034: SKL_Hand_RT
+    100036: SKL_Head_MD
+    100038: SKL_Hip_MD
+    100040: SKL_Hood01_MD
+    100042: SKL_index1_LF
+    100044: SKL_index1_RT
+    100046: SKL_index2_LF
+    100048: SKL_index2_RT
+    100050: SKL_jaw_MD
+    100052: SKL_lip_bot_LF
+    100054: SKL_lip_bot_MD
+    100056: SKL_lip_bot_RT
+    100058: SKL_lip_top_LF
+    100060: SKL_lip_top_MD
+    100062: SKL_lip_top_RT
+    100064: SKL_LoArm_LF
+    100066: SKL_LoArm_RT
+    100068: SKL_LoLeg_LF
+    100070: SKL_LoLeg_RT
+    100072: SKL_mitt1_LF
+    100074: SKL_mitt1_RT
+    100076: SKL_mitt2_LF
+    100078: SKL_mitt2_RT
+    100080: SKL_root_MD
+    100082: SKL_thumb1_LF
+    100084: SKL_thumb1_RT
+    100086: SKL_thumb2_LF
+    100088: SKL_thumb2_RT
+    100090: SKL_Toe_LF
+    100092: SKL_Toe_RT
+    100094: SKL_UpArm_LF
+    100096: SKL_UpArm_RT
+    100098: SKL_UpLeg_LF
+    100100: SKL_UpLeg_RT
+    400000: //RootNode
+    400002: SKL_Ball_LF
+    400004: SKL_Ball_RT
+    400006: SKL_Cape_Back_MD
+    400008: SKL_Cape_Front_MD
+    400010: SKL_Chest_MD
+    400012: SKL_Clavicle_LF
+    400014: SKL_Clavicle_RT
+    400016: SKL_eye_LF
+    400018: SKL_eye_RT
+    400020: SKL_eyelid_bot_LF
+    400022: SKL_eyelid_bot_RT
+    400024: SKL_eyelid_top_LF
+    400026: SKL_eyelid_top_RT
+    400028: SKL_Foot_LF
+    400030: SKL_Foot_RT
+    400032: SKL_Hand_LF
+    400034: SKL_Hand_RT
+    400036: SKL_Head_MD
+    400038: SKL_Hip_MD
+    400040: SKL_Hood01_MD
+    400042: SKL_index1_LF
+    400044: SKL_index1_RT
+    400046: SKL_index2_LF
+    400048: SKL_index2_RT
+    400050: SKL_jaw_MD
+    400052: SKL_lip_bot_LF
+    400054: SKL_lip_bot_MD
+    400056: SKL_lip_bot_RT
+    400058: SKL_lip_top_LF
+    400060: SKL_lip_top_MD
+    400062: SKL_lip_top_RT
+    400064: SKL_LoArm_LF
+    400066: SKL_LoArm_RT
+    400068: SKL_LoLeg_LF
+    400070: SKL_LoLeg_RT
+    400072: SKL_mitt1_LF
+    400074: SKL_mitt1_RT
+    400076: SKL_mitt2_LF
+    400078: SKL_mitt2_RT
+    400080: SKL_root_MD
+    400082: SKL_thumb1_LF
+    400084: SKL_thumb1_RT
+    400086: SKL_thumb2_LF
+    400088: SKL_thumb2_RT
+    400090: SKL_Toe_LF
+    400092: SKL_Toe_RT
+    400094: SKL_UpArm_LF
+    400096: SKL_UpArm_RT
+    400098: SKL_UpLeg_LF
+    400100: SKL_UpLeg_RT
+    7400000: A_lurcher_hitreact
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: A_lurcher_hitreact
+      takeName: A_lurcher_hitreact
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .0191256832
+        functionName: PlayCharacterSound
+        data: HitReact
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SKL_root_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Cape_Back_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Cape_Front_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Clavicle_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Clavicle_LF/SKL_UpArm_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Clavicle_LF/SKL_UpArm_LF/SKL_LoArm_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Clavicle_LF/SKL_UpArm_LF/SKL_LoArm_LF/SKL_Hand_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Clavicle_LF/SKL_UpArm_LF/SKL_LoArm_LF/SKL_Hand_LF/SKL_index1_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Clavicle_LF/SKL_UpArm_LF/SKL_LoArm_LF/SKL_Hand_LF/SKL_index1_LF/SKL_index2_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Clavicle_LF/SKL_UpArm_LF/SKL_LoArm_LF/SKL_Hand_LF/SKL_mitt1_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Clavicle_LF/SKL_UpArm_LF/SKL_LoArm_LF/SKL_Hand_LF/SKL_mitt1_LF/SKL_mitt2_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Clavicle_LF/SKL_UpArm_LF/SKL_LoArm_LF/SKL_Hand_LF/SKL_thumb1_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Clavicle_LF/SKL_UpArm_LF/SKL_LoArm_LF/SKL_Hand_LF/SKL_thumb1_LF/SKL_thumb2_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Clavicle_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Clavicle_RT/SKL_UpArm_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Clavicle_RT/SKL_UpArm_RT/SKL_LoArm_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Clavicle_RT/SKL_UpArm_RT/SKL_LoArm_RT/SKL_Hand_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Clavicle_RT/SKL_UpArm_RT/SKL_LoArm_RT/SKL_Hand_RT/SKL_index1_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Clavicle_RT/SKL_UpArm_RT/SKL_LoArm_RT/SKL_Hand_RT/SKL_index1_RT/SKL_index2_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Clavicle_RT/SKL_UpArm_RT/SKL_LoArm_RT/SKL_Hand_RT/SKL_mitt1_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Clavicle_RT/SKL_UpArm_RT/SKL_LoArm_RT/SKL_Hand_RT/SKL_mitt1_RT/SKL_mitt2_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Clavicle_RT/SKL_UpArm_RT/SKL_LoArm_RT/SKL_Hand_RT/SKL_thumb1_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Clavicle_RT/SKL_UpArm_RT/SKL_LoArm_RT/SKL_Hand_RT/SKL_thumb1_RT/SKL_thumb2_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_eye_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_eye_LF/SKL_eyelid_bot_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_eye_LF/SKL_eyelid_top_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_eye_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_eye_RT/SKL_eyelid_bot_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_eye_RT/SKL_eyelid_top_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_jaw_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_lip_bot_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_lip_bot_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_lip_bot_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_lip_top_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_lip_top_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Head_MD/SKL_lip_top_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_Chest_MD/SKL_Hood01_MD
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_UpLeg_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_UpLeg_LF/SKL_LoLeg_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_UpLeg_LF/SKL_LoLeg_LF/SKL_Foot_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_UpLeg_LF/SKL_LoLeg_LF/SKL_Foot_LF/SKL_Ball_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_UpLeg_LF/SKL_LoLeg_LF/SKL_Foot_LF/SKL_Ball_LF/SKL_Toe_LF
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_UpLeg_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_UpLeg_RT/SKL_LoLeg_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_UpLeg_RT/SKL_LoLeg_RT/SKL_Foot_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_UpLeg_RT/SKL_LoLeg_RT/SKL_Foot_RT/SKL_Ball_RT
+        weight: 1
+      - path: SKL_root_MD/SKL_Hip_MD/SKL_UpLeg_RT/SKL_LoLeg_RT/SKL_Foot_RT/SKL_Ball_RT/SKL_Toe_RT
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: a324965a49a31f44682aa159338b7553,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

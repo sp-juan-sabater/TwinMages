@@ -69,6 +69,7 @@
     <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Plugins\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>F:/+PROJECTS/TwinMages/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
