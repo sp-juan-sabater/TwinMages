@@ -180,8 +180,6 @@
     <Compile Include="Assets\PlayMaker\Editor\PlayMakerWelcomeWindow.cs" />
     <Compile Include="Assets\PlayMaker\Editor\PreUpdateChecker.cs" />
     <Compile Include="Assets\PlayMaker\Editor\ReportWindow.cs" />
-    <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
-    <Compile Include="Assets\TutorialInfo\Scripts\Editor\TutorialInfoEditor.cs" />
     <None Include="Assets\PlayMaker\Editor\Resources\CustomVariableTypes.txt" />
     <None Include="Assets\PlayMaker\Editor\Resources\VersionInfo.txt" />
     <None Include="Assets\net.fabrejean\Editor\Common\GuiSkins\VolcanicGuiSkin\ReadMeForCredits.txt" />
